@@ -1,5 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ProjectDNFLuckyBox.Battle.SlotBattleResultReward" preserve="all" />
+    <type fullname="ProjectDNFLuckyBox.Battle.UIBattleDirection" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Battle.UIBattleMain" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Battle.UIBattleResult" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Boss.BossHPBar" preserve="all" />
@@ -8,9 +10,19 @@
     <type fullname="ProjectDNFLuckyBox.Player.PlayerUnit" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Title.UITitle" preserve="all" />
     <type fullname="Somggori.Battle.DamageText" preserve="all" />
+    <type fullname="Somggori.UI.UIDirectionSequentialScrollItem" preserve="all" />
+    <type fullname="ProjectDNFLuckyBox.Boss.RewardData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="BroAudio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Ami.BroAudio.Data.AudioAsset" preserve="all" />
+    <type fullname="Ami.BroAudio.Data.AudioEntity" preserve="all" />
+    <type fullname="Ami.BroAudio.Data.BroAudioClip" preserve="nothing" serialized="true" />
+    <type fullname="Ami.BroAudio.Data.TempoTransition" preserve="nothing" serialized="true" />
+    <type fullname="Ami.BroAudio.SoundID" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -19,7 +31,6 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
@@ -36,6 +47,9 @@
     <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ComputeShader" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
@@ -49,6 +63,8 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
@@ -58,12 +74,17 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
