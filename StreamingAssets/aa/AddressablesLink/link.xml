@@ -6,8 +6,6 @@
     <type fullname="ProjectDNFLuckyBox.Battle.UIBattleResult" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Boss.BossHPBar" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Boss.BossModel" preserve="all" />
-    <type fullname="ProjectDNFLuckyBox.Player.PlayerGraphicController" preserve="all" />
-    <type fullname="ProjectDNFLuckyBox.Player.PlayerUnit" preserve="all" />
     <type fullname="ProjectDNFLuckyBox.Title.UITitle" preserve="all" />
     <type fullname="Somggori.Battle.DamageText" preserve="all" />
     <type fullname="Somggori.UI.UIDirectionSequentialScrollItem" preserve="all" />
@@ -65,9 +63,6 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
