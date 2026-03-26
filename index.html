@@ -18,6 +18,10 @@
       overflow: hidden;
       background: #231F20;
     }
+    #unity-container {
+      width: 80% !important;
+      height: 80% !important;
+    }
     #unity-canvas {
       width: 100% !important;
       height: 100% !important;
@@ -81,6 +85,11 @@
         productName: "ProjectDNFLuckyBox",
         productVersion: "1.0",
         showBanner: unityShowBanner,
+
+
+        matchWebGLToCanvasSize: true, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        devicePixelRatio: window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
+
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
         //    // Return 'true' if you handled this error and don't want Unity
