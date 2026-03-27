@@ -6,9 +6,10 @@
     <title>Unity Web Player | ProjectDNFLuckyBox</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="https://ssl.nexon.com/s1/da/a2s.js" defer></script>
   </head>
 
-
+<!-- 추가 -->
   <style>
     html, body {
       width: 100%;
@@ -28,6 +29,7 @@
       display: block;
     }
   </style>
+  <!-- 여기까지 -->
 
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -86,9 +88,10 @@
         productVersion: "1.0",
         showBanner: unityShowBanner,
 
-
+        <!-- 추가 -->
         matchWebGLToCanvasSize: true, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         devicePixelRatio: window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
+        <!-- 여기까지 -->
 
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
@@ -130,6 +133,7 @@
 
 
       } else {
+        <!-- else 문 추가 -->
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
         var canvas = document.querySelector("#unity-canvas");
         canvas.style.width = "100vw";
