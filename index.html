@@ -3,12 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>파핑파핑! 최후의 조율자</title>
+    <title>Unity Web Player | 파핑파핑! 최후의 조율자</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-
-    <!-- a2s 추가 -->
-    <script src="https://ssl.nexon.com/s1/da/a2s.js" defer></script>
   </head>
 
   <!-- 추가 -->
@@ -90,7 +87,6 @@
         productVersion: "1.0",
         showBanner: unityShowBanner,
 
-
         <!-- 추가 -->
         matchWebGLToCanvasSize: true, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         devicePixelRatio: window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
@@ -135,10 +131,12 @@
         // config.devicePixelRatio = 1;
 
 
-      } else {
+      }  else {
+        <!-- else 문 추가 -->
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1600px";
-        canvas.style.height = "900px";
+        var canvas = document.querySelector("#unity-canvas");
+        canvas.style.width = "100vw";
+        canvas.style.height = "100vh";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
@@ -163,6 +161,7 @@
 
     </script>
 
+
     <!-- DNF ga 추가 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MVSJ0S9YG"></script>
     <script>
@@ -173,6 +172,6 @@
       gtag('config', 'G-7MVSJ0S9YG');
     </script>
     <!-- 여기까지 -->
-  
+
   </body>
 </html>
